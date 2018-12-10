@@ -1,0 +1,3 @@
+[submodule "BookReader"]
+	path = BookReader
+	url = https://github.com/internetarchive/bookreader.git
