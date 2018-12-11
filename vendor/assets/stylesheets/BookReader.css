@@ -124,7 +124,7 @@
   font-size: 1.2em;
 }
 .BookReader .loader, .BRmobileMenu .loader, .BRfloat .loader {
-  background: url(assets/loading.gif) no-repeat 50%;
+  background: url(/assets/loading.gif) no-repeat 50%;
   height: 16px;
   min-width: 16px;
 }
@@ -171,7 +171,7 @@
   width: auto;
   height: 100%;
   margin: 0 10px;
-  background: transparent url(assets/icon_home.svg) no-repeat center center;
+  background: transparent url(/assets/icon_home.svg) no-repeat center center;
   background-size: contain;
 }
 
@@ -204,7 +204,7 @@
 }
 
 .BRprogressbar {
-  background-image: url("assets/progressbar.gif");
+  background-image: url("/assets/progressbar.gif");
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -562,14 +562,14 @@ body.BRfullscreenActive .mm-menu {
 }
 
 .BRonePageImage {
-  background: url(assets/loading.gif) 50% no-repeat;
+  background: url(/assets/loading.gif) 50% no-repeat;
 }
 
 .BRleafEdgeR {
   border-style: solid solid solid none;
   border-color: #333322;
   border-width: 1px 1px 1px 0px;
-  background: transparent url(assets/back_pages.png) repeat scroll 0% 0%;
+  background: transparent url(/assets/back_pages.png) repeat scroll 0% 0%;
   position: absolute;
   cursor: pointer;
 }
@@ -578,8 +578,8 @@ body.BRfullscreenActive .mm-menu {
   /* border-style: solid none solid solid;
   border-color: rgb(51, 51, 34);
   border-width: 1px 0px 1px 1px; */
-  /* background: transparent url(assets/left_edges.png) repeat scroll 0% 0%; */
-  background: transparent url(assets/back_pages.png) repeat scroll 0% 0%;
+  /* background: transparent url(/assets/left_edges.png) repeat scroll 0% 0%; */
+  background: transparent url(/assets/back_pages.png) repeat scroll 0% 0%;
   /* XXXmang replace file */
   position: absolute;
   cursor: pointer;
@@ -589,8 +589,8 @@ body.BRfullscreenActive .mm-menu {
   /* border-style: solid none solid solid;
   border-color: rgb(51, 51, 34);
   border-width: 1px 0px 1px 1px; */
-  /* background: transparent url(assets/left_edges.png) repeat scroll 0% 0%; */
-  background: transparent url(assets/back_pages.png) repeat scroll 0% 0%;
+  /* background: transparent url(/assets/left_edges.png) repeat scroll 0% 0%; */
+  background: transparent url(/assets/back_pages.png) repeat scroll 0% 0%;
   /* XXXmang replace file */
   position: absolute;
 }
@@ -598,7 +598,7 @@ body.BRfullscreenActive .mm-menu {
 .BRgutter {
   /* border: 1px solid rgb(68, 25, 17); */
   position: absolute;
-  background: transparent url(assets/booksplit.png) repeat scroll 0% 0%;
+  background: transparent url(/assets/booksplit.png) repeat scroll 0% 0%;
 }
 
 .BRtwoPagePopUp {
@@ -619,7 +619,7 @@ body.BRfullscreenActive .mm-menu {
   border: none;
   cursor: pointer;
   background-color: transparent;
-  background-image: url(assets/BRicons.svg);
+  background-image: url(/assets/BRicons.svg);
   background-repeat: no-repeat;
 }
 .BRicon:hover {
@@ -939,7 +939,7 @@ i.BRicon {
   height: 32px;
   border: none;
   background-color: transparent;
-  background-image: url("assets/icon_close-pop.png");
+  background-image: url("/assets/icon_close-pop.png");
   background-position: 0 0;
   background-repeat: no-repeat;
 }
@@ -1032,7 +1032,7 @@ i.BRicon {
 }
 
 .BRfloatMeta p.moreInfo span {
-  background: url("assets/icon_OL-logo-xs.png") no-repeat;
+  background: url("/assets/icon_OL-logo-xs.png") no-repeat;
   display: block;
   float: left;
   width: 26px;
@@ -1065,7 +1065,7 @@ i.BRicon {
 }
 
 .BRfloatFoot a.problem, a.problem-icon {
-  background: url("assets/icon_alert-xs.png") no-repeat;
+  background: url("/assets/icon_alert-xs.png") no-repeat;
   padding-left: 20px;
 }
 
@@ -1187,7 +1187,7 @@ i.BRicon {
   width: 25px;
   height: 25px;
   margin: 0 10px;
-  background: transparent url(assets/icon_home.svg) no-repeat center center;
+  background: transparent url(/assets/icon_home.svg) no-repeat center center;
   background-size: contain;
 }
 .BRnav a {
@@ -1354,12 +1354,12 @@ i.BRicon {
 }
 
 .BRup {
-  background-image: url("assets/nav_control-up.png");
+  background-image: url("/assets/nav_control-up.png");
   background-repeat: no-repeat;
 }
 
 .BRdn {
-  background-image: url("assets/nav_control-dn.png");
+  background-image: url("/assets/nav_control-dn.png");
   background-repeat: no-repeat;
 }
 
@@ -1513,14 +1513,14 @@ i.BRicon {
   background-color: blue;
 }
 .BookReader .BRsearch, .BRmobileMenu .BRsearch, .BRfloat .BRsearch {
-  background-image: url(assets/marker_srch-off.svg);
+  background-image: url(/assets/marker_srch-off.svg);
   width: 20px;
   height: 25px;
   margin-left: -20px;
   /* Center icon */
 }
 .BookReader .BRsearch.front, .BRmobileMenu .BRsearch.front, .BRfloat .BRsearch.front {
-  background-image: url(assets/marker_srch-on.svg);
+  background-image: url(/assets/marker_srch-on.svg);
 }
 .BookReader .BRsearch .BRquery, .BRmobileMenu .BRsearch .BRquery, .BRfloat .BRsearch .BRquery {
   display: none;
@@ -1540,7 +1540,7 @@ i.BRicon {
   bottom: -14px;
   width: 18px;
   height: 27px;
-  background: transparent url(assets/marker_srch-on.png) no-repeat;
+  background: transparent url(/assets/marker_srch-on.png) no-repeat;
 }
 .BookReader .BRmobileSearchResultWrapper, .BRmobileMenu .BRmobileSearchResultWrapper, .BRfloat .BRmobileSearchResultWrapper {
   margin-top: 20px;
@@ -1641,7 +1641,7 @@ i.BRicon {
   height: 30px;
   border: none;
   background-color: #0074D1;
-  background-image: url("assets/icon_search_button.svg");
+  background-image: url("/assets/icon_search_button.svg");
   background-repeat: no-repeat;
   background-position: center center;
   text-align: center;
