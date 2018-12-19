@@ -25,20 +25,20 @@ Or install it yourself as:
 add follow code to application.css:
 
 ```ruby
- *= require BookReader
- *= require BookReaderDemo
+ *= require bookreader/BookReader
+ *= require bookreader/BookReaderDemo
 ```
 
 and add follow code to application.js:
 
 ```ruby
-//= require jquery-1.10.1
-//= require jquery-ui-1.12.0.min
-//= require jquery.browser.min
-//= require dragscrollable-br
-//= require jquery.colorbox-min
-//= require jquery.bt.min
-//= require BookReader
+//= require bookreader/jquery-1.10.1
+//= require bookreader/jquery-ui-1.12.0.min
+//= require bookreader/jquery.browser.min
+//= require bookreader/dragscrollable-br
+//= require bookreader/jquery.colorbox-min
+//= require bookreader/jquery.bt.min
+//= require bookreader/BookReader
 ```
 
 then, add follow javascript code to demo page in body:
